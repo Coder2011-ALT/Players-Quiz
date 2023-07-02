@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+}
+
+img {
+    margin: 10px;
+}
+
+img#hs {
+    width: 420px;
+    height: 520px;
+}
+
+img#dg {
+    width: 600px;
+    height: 520px;
+}
+
+img#gj {
+    width: 420px;
+    height: 520px;
+}
+
+#dgj {
+    border: 2px dashed crimson;
+    width: 450px;
+    height: 580px;
+}
+
+.left {
+    float: left;
+}
+
+.players-bb {
+    width: 310px;
+    height: 480px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+#mid {
+    position: absolute;
+    left: 42%;
+}
+
+#submit {
+    position: fixed;
+    text-align: center;
+    border-top: 2px dashed coral;
+    background-color: aqua;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#submit-btn {
+    text-decoration: none;
+    border: 1px solid burlywood;
+    color: #106e37;
+    padding: 2px;
+}
+
+#submit-btn:hover{
+    background-color: lime;
+}
