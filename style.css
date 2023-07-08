@@ -1,68 +1,55 @@
 body {
-    background-color: beige;
+    background-color: bisque;
 }
 
-img {
-    margin: 10px;
-}
-
-img#hs {
-    width: 420px;
-    height: 520px;
-}
-
-img#dg {
-    width: 600px;
-    height: 520px;
-}
-
-img#gj {
-    width: 420px;
-    height: 520px;
-}
-
-#dgj {
-    border: 2px dashed crimson;
-    width: 450px;
-    height: 580px;
-}
-
-.left {
-    float: left;
-}
-
-.players-bb {
-    width: 310px;
-    height: 480px;
-}
-
-.right {
-    position: absolute;
-    right: 0;
-}
-
-#mid {
-    position: absolute;
-    left: 42%;
-}
-
-#submit {
-    position: fixed;
+h1 {
+    color: darkkhaki;
     text-align: center;
-    border-top: 2px dashed coral;
-    background-color: aqua;
+    border: 2px solid crimson;
+}
+
+
+input {
     padding: 10px;
+    background-color: antiquewhite;
+    border: 1px dashed royalblue;
+    border-radius: 5%;
+    height: 30px;
+    width: 190px;
+}
+
+#sticky {
+    position: fixed;
     bottom: 0;
+    border-top: 2px dashed salmon;
     width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
-#submit-btn {
+@keyframes fade {
+    from {
+        background-color: bisque;
+        color: darkcyan
+    }
+
+    to {
+        background-color: darkcyan;
+        color: aqua;
+    }
+}
+
+a {
+    padding: 4px;
+    border: 1px double dodgerblue;
     text-decoration: none;
-    border: 1px solid burlywood;
-    color: #106e37;
-    padding: 2px;
+    color: darkcyan;
+    background-color: bisque;
 }
 
-#submit-btn:hover{
-    background-color: lime;
+a:hover {
+    background-color: darkcyan;
+    color: aqua;
+    animation-name: fade;
+    animation-duration: 2s;
 }
